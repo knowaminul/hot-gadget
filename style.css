@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+
+.carousel{
+    margin-top: -30px;
+}
+
+.slider-bg-2{
+    background-image: url("images/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: left -50px bottom -60px;
+}
+
+.slider-bg-1{
+    background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;   
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #CECECE;
+}
+
+.carousel-indicators li.active{
+    width: 35px;
+    height: 10px;
+    border-radius: 8px;
+    background-color:  #FF9D00;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.item{
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+h1{
+    font-size: 41px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.buy{
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    background-color: black; 
+    color: #fff;
+    text-transform: uppercase;
+    padding: 9px 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;  
+}
+
+.card-body{
+    padding: 50px 5px 20px 5px;
+}
+
+.card-footer {
+    border-top: 0 !important;
+}
+
+.card h5{
+    font-size: 24px;
+    font-weight: 500;    
+}
+
+.card p{
+    font-size: 16px;
+    font-weight: 300;    
+}
+
+#smartphones a{
+    font-size: 22px;
+    font-weight: 500;
+    color: #FF9D00;
+    text-decoration: none;
+}
+
+#laptops a{
+    font-size: 22px;
+    font-weight: 500;
+    color: #FF9D00;
+    text-decoration: none;
+}
+
+.categories h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+}
+
+.categories h3{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;  
+}
+
+.categories p{
+    width: 135px;
+    height: 10px;
+    background-image: linear-gradient(to bottom,#FF9C35 0%,#FFD019  100%);
+    border-radius: 10px;
+}
+
+.categories .row{
+    margin-top: 50px;
+}
+
+#contact{
+    background-color: #FEEAE9;
+    height: 400px;    
+    border-radius: 10px;
+}
+
+#contact h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#contact h6{
+    font-size: 18px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.subscription{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.subscription input{
+	flex-basis: 80%;
+	max-width: 80%;
+	outline: none;
+    border-style: none;
+    padding: 5px 10px;
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: 500;    
+}
+
+.subscription button{
+	flex-basis: 20%;
+	max-width: 20%;
+	padding: 7px 10px;
+	text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    background-image: linear-gradient(to bottom, #FF5898 0%, #FF136F 100%);
+    color: #fff;
+    cursor: pointer;
+}
